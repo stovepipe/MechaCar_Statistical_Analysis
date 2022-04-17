@@ -1,9 +1,9 @@
 # MechaCar_Statistical_Analysis
-Using R to perform statistical analysis on various datasets. This project incorporates the use of statistical rrasoning and methodology to analyze a group of datasets from the automotive industry. 
+Using R to perform statistical analysis on various datasets. This project incorporates the use of statistical reasoning and methodology to analyze a group of datasets from the automotive industry. 
 
 ## Linear Regression to Predict MPG
 
-![LR_MPG_Prediction](link)s
+![LR_MPG_Prediction](https://github.com/stovepipe/MechaCar_Statistical_Analysis/blob/main/Resources/LR_MPG_Prediction.png)
 
 #### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 - Using the Pr(>|t|) values generated in the linear regression model, we see that vehicle length and ground clearance, along with the intercept, provide a non-random amount of variance to the mpg values in the dataset
