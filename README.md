@@ -56,4 +56,4 @@ It all comes down to the dollars and cents. In an ideal world without brand powe
 #### What statistical test would you use to test the hypothesis? And why?
 - Multiple linear regression as it will allow us to put in multiple variables and model a relationship toward vehicle cost under specific metrics
 #### What data is needed to run the statistical test?
-- The data needed for the vehicles incudes manufacturer ("Competition"), fuel efficiency, safety rating, and technology features. This type of data is included in most vehicle datasets as it pertains to most vehicles. Data could be found with various automotive trade consumer reporting groups, or we could pull the data through vehicle API's such as [CarQueryAPI](http://www.carqueryapi.com/).
+- The data needed for the vehicles incudes manufacturer ("Competition"), fuel efficiency, safety rating, and technology features. This type of data is included in most vehicle datasets as it pertains to most vehicles. Data could be found with various automotive trade consumer reporting groups, or we could pull the data through vehicle API's such as [CarQueryAPI](http://www.carqueryapi.com/){target="_blank"}.
