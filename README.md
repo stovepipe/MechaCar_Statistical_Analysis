@@ -16,14 +16,15 @@ Using R to perform statistical analysis on various datasets. This project incorp
 
 ## Summary Statistics on Suspension Coils
 
-total_summary df screenshot
-Caption
+![total_summary_df](link)
+Total Suspension Coil Summary
 
-lot_summary df screenshot
-Caption
+![lot_summary_df](link)
+Suspension Coil Summary Grouped by Lot
 
 #### The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
-- 
+- Based off of the summary statistical data for suspension coils across all lots, manufacturing is meeting specifications. However, when broken down to individual lot variance, lots 1 & 2 meet specs, but lot 3 is out of spec with a variance of 170.29 psi, exceeding the 100 psi variance max design specification.
+
 ## T-Tests on Suspension Coils
 
 T-test screenshot
