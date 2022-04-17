@@ -1,16 +1,19 @@
 # MechaCar_Statistical_Analysis
-Using R to perform statistical analysis on various datasets
+Using R to perform statistical analysis on various datasets. This project incorporates the use of statistical rrasoning and methodology to analyze a group of datasets from the automotive industry. 
 
 ## Linear Regression to Predict MPG
 
-Screenshot
+![LR_MPG_Prediction](link)s
 
 #### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-- 
+- Using the Pr(>|t|) values generated in the linear regression model, we see that vehicle length and ground clearance, along with the intercept, provide a non-random amount of variance to the mpg values in the dataset
+
 #### Is the slope of the linear model considered to be zero? Why or why not?
-- 
+- No, due to the multiple variables and the varied significance levels that contribute to our linear formula. A positive slope is generated.
+
 #### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-- 
+- In seeing an R-squared value of 0.71, it can be said that 71% of mpg is determined by the variables of vehicle length, weight, spoiler angle, drivetrain, and ground clearance. This leads us to conclude that this model can serve as an efficient predictor of mpg.
+
 ## Summary Statistics on Suspension Coils
 
 total_summary df screenshot
