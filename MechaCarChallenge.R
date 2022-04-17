@@ -31,7 +31,28 @@ lot_summary_df <- suspension_coil_data %>% group_by(Manufacturing_Lot) %>% summa
 # Review lot_summary dataframe
 lot_summary_df
 
+# Begin Deliverable 3
+# Generate sample of all coil data
+all_coil_sample <- suspension_coil_data %>% sample_n(50)
 
+# Perform t-test to determine if the mean PSI across all manufacturing lots is statistically different from the population mean
+t.test(all_coil_sample$PSI,mu=mean(suspension_coil_data$PSI))
 
+# Generate sample of lot 1 coil data
+lot1_sample <- suspension_coil_data %>% subset(Manufacturing_Lot=='Lot1') %>% sample_n(25)
 
+# Perform t-test to determine if the mean PSI from lot 1 is statistically different from the population mean
+t.test(lot1_sample$PSI,mu=mean(suspension_coil_data$PSI))
+
+# Generate sample of lot 2 coil data
+lot2_sample <- suspension_coil_data %>% subset(Manufacturing_Lot=='Lot2') %>% sample_n(25)
+
+# Perform t-test to determine if the mean PSI from lot 2 is statistically different from the population mean
+t.test(lot2_sample$PSI,mu=mean(suspension_coil_data$PSI))
+
+# Generate sample of lot 3 coil data
+lot3_sample <- suspension_coil_data %>% subset(Manufacturing_Lot=='Lot3') %>% sample_n(25)
+
+# Perform t-test to determine if the mean PSI from lot 3 is statistically different from the population mean
+t.test(lot3_sample$PSI,mu=mean(suspension_coil_data$PSI))
 
